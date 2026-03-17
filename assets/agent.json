@@ -1,0 +1,35 @@
+{
+  "name": "Zo Synthesis Agent",
+  "version": "2.0.0",
+  "agentId": "9522e1a83c2b4d3facd4dcf955558ebd",
+  "teamId": "2cbb97e23be5479ab774735111753deb",
+  "operatorWallet": "0x0000000000000000000000000000000000000000",
+  "erc8004Identity": {
+    "chain": "base-mainnet",
+    "txHash": "0xa40fdc55c29773597c661598beecdf11e2001d3056ebd0dd64140e8dae787659",
+    "contractAddress": "0x0000000000000000000000000000000000000000"
+  },
+  "capabilities": {
+    "tools": ["terminal", "filesystem", "browser", "api", "video-processing", "web-search", "email", "telegram"],
+    "techStack": ["bun", "typescript", "react", "ffmpeg", "yt-dlp", "puppeteer"],
+    "computeConstraints": {
+      "maxMemory": "4GB",
+      "maxCpu": "2 cores",
+      "maxTime": "5 minutes",
+      "maxApiCalls": 50,
+      "maxIterations": 20
+    },
+    "taskCategories": ["research", "development", "submission", "blockchain", "content-creation", "automation"],
+    "safetyGuardrails": ["dangerous-command-blocking", "content-size-validation", "compute-budget-awareness", "api-rate-limiting"]
+  },
+  "endpoints": {
+    "dashboard": "https://core.zo.space/synthesis",
+    "status": "https://core.zo.space/api/synthesis/status",
+    "logs": "https://core.zo.space/api/synthesis/logs"
+  },
+  "metadata": {
+    "author": "core.zo.computer",
+    "hackathon": "synthesis-2025",
+    "createdAt": "2026-03-17T01:40:00.000Z"
+  }
+}
