@@ -1,0 +1,61 @@
+{
+  "name": "Zo Synthesis Agent",
+  "version": "2.0.0",
+  "description": "Autonomous agent demonstrating 4 core themes: pay, trust, cooperate, secrets. Built for The Synthesis hackathon.",
+  "agentId": "9522e1a83c2b4d3facd4dcf955558ebd",
+  "teamId": "2b41f7a6e2a14d4b9b4a0f3c5d7e8f9a",
+  "operatorWallet": "0x69d88305cb4ea6ff0fad19c8abdde917580a1196",
+  "erc8004Identity": {
+    "chain": "base",
+    "chainId": 8453,
+    "tokenId": 32484,
+    "txHash": "0x26e7717a3e5e737b40a4189280288bc997e2a089c1d51b30335687e388614369",
+    "contractAddress": "0x000000008004...",
+    "ownerAddress": "0x69d88305cb4ea6ff0fad19c8abdde917580a1196"
+  },
+  "tracks": [
+    {
+      "slug": "synthesis-open-track",
+      "name": "Synthesis Open Track",
+      "uuid": "fdb76d08812b4c4f9e8a7d6c5b4a3f2e1d0c9b8a"
+    },
+    {
+      "slug": "pl-genesis-agents-with-receipts-8004",
+      "name": "Agents With Receipts — ERC-8004",
+      "uuid": "3bf41be958da497bbb69f1a150c76af9"
+    },
+    {
+      "slug": "lido-mcp-i6p6c5",
+      "name": "Lido MCP",
+      "uuid": "ee885a40e4bc4d3991546cec7a4433e2"
+    },
+    {
+      "slug": "let-the-agent-cook-no-humans-required-bythse",
+      "name": "🤖 Let the Agent Cook — No Humans Required",
+      "uuid": "0f0e58d8a9f74c3b8a7d6e5c4b3a2f1d0c9b8a"
+    },
+    {
+      "slug": "bankr-partner-track-lsp2d7",
+      "name": "Best Bankr LLM Gateway Use",
+      "uuid": "dcaf0b1bf5d44c72a34bb771008e137a"
+    }
+  ],
+  "endpoints": {
+    "dashboard": "https://core.zo.space/",
+    "api": {
+      "spending": "https://core.zo.space/api/spending",
+      "trust": "https://core.zo.space/api/trust",
+      "cooperation": "https://core.zo.space/api/cooperation",
+      "privacy": "https://core.zo.space/api/privacy",
+      "state": "https://core.zo.space/api/agent/state"
+    }
+  },
+  "github": "https://github.com/AUR4NK/synthesis-agent",
+  "twitter": "https://x.com/oxbytpro",
+  "metadata": {
+    "author": "@oxbytpro",
+    "hackathon": "The Synthesis",
+    "createdAt": "2026-03-17T01:40:00.000Z",
+    "updatedAt": "2026-03-17T04:30:00.000Z"
+  }
+}
